@@ -1,4 +1,4 @@
-# latex-full
+# texlive-full
 自用的Latex编译环境，可以配合 VS Code 的 LaTeX-Workshop 扩展一起使用。
 
 里面安装了 `texlive-full` 和思源宋体。
