@@ -22,7 +22,7 @@
 5. 编辑 `settings.json` 添加下面三行：
   ```json
       "latex-workshop.docker.enabled": true,
-      "latex-workshop.docker.image.latex": "zgldh/latex-runtime:latest",
+      "latex-workshop.docker.image.latex": "zgldh/texlive-full:latest",
       "latex-workshop.latex.recipe.default": "latexmk (xelatex)"
   ```
 6. 可以开始编辑文档了。
