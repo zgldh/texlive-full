@@ -1,0 +1,4 @@
+{
+    "name": "TeX Live base",
+    "image": "zgldh/latex-runtime:latest"
+}
