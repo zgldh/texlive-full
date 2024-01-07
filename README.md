@@ -19,10 +19,11 @@
 2. 复制 `.devcontainer` 到你的文档项目根目录。
 3. 安装 `LaTeX Workshop` 扩展。
 4. 安装 [Docker](https://www.docker.com/products/docker-desktop)
-5. 编辑 `settings.json` 添加下面三行：
+5. 命令行执行 `docker pull zgldh/texlive-full:main`
+6. 编辑 `settings.json` 添加下面三行：
   ```json
       "latex-workshop.docker.enabled": true,
-      "latex-workshop.docker.image.latex": "zgldh/texlive-full:latest",
+      "latex-workshop.docker.image.latex": "zgldh/texlive-full:main",
       "latex-workshop.latex.recipe.default": "latexmk (xelatex)"
   ```
-6. 可以开始编辑文档了。
+1. 可以开始编辑文档了。

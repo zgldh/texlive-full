@@ -1,4 +1,4 @@
 {
     "name": "TeX Live base",
-    "image": "zgldh/texlive-full:latest"
+    "image": "zgldh/texlive-full:main"
 }
