@@ -40,4 +40,4 @@ COPY fonts/SiYuanSongTiRegular /usr/share/fonts/truetype/SiYuanSongTiRegular
 RUN mktexlsr
 
 # 安装 Pandoc
-RUN curl -L https://github.com/jgm/pandoc/releases/download/3.1.11.1/pandoc-3.1.11.1-linux-amd64.tar.gz | tar -xvz --strip-components 1 -C /usr/local/bin/
+RUN curl -L https://github.com/jgm/pandoc/releases/download/3.1.11.1/pandoc-3.1.11.1-linux-amd64.tar.gz | tar -xvz --strip-components 1 -C /usr/local/
